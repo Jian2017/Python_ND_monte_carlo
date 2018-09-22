@@ -41,12 +41,12 @@ the output is a hdf5 format file\
 
 ## analysis data, be patient!
 
-in the ANALYSIS.py package, I wrote function to read the hdf5 file
+in the `ANALYSIS.py` package, I wrote function to read the hdf5 file
 ```python
 from ANALYSIS import readm1
 m1=readm1("somename2.hdf5")
 ```
-analysis1_binderRatio_with_error.py provides function to estimate the Binder ratio and its error
+`analysis1_binderRatio_with_error.py` provides function to estimate the Binder ratio and its error
 
 
 ![alt text](/image/binder_ratio.png "Logo Title Text 1")\
