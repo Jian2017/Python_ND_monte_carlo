@@ -1,4 +1,11 @@
 # Python_ND_monte_carlo
+```python
+p=IsingND(Ls,Ks,A)
+```
+where Ls and Ks must be python tuple, even it is one dimension, it should be written as (32,)
+Ls is the system dimension
+Ks is the nearest coupling
+A is the longer range coupling in Ls[0] dimension
 
 ## 1-d monte carlo 
 
@@ -21,3 +28,7 @@ p.run("somename2.hdf5",50,200,6)
 ```
     in this case there are 500x200x6 steps running
     but only 500x200 is stored, because the step gap is 6
+    
+## what is the output?
+the output is a hdf5 format file
+
