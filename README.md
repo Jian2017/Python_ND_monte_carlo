@@ -34,4 +34,12 @@ the output is a hdf5 format file\
 ![alt text](/image/h5file2.png "Logo Title Text 1")\
 ![alt text](/image/h5file1.png "Logo Title Text 1")\
 
+## analysis data, be patient!
+
+![alt text](/image/binder_ratio.png "Logo Title Text 1")\
+![alt text](/image/binder_ratio_zoom.png "Logo Title Text 1")\
+
+
+
+
 
