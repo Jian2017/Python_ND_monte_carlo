@@ -39,9 +39,13 @@ c++ is a better alternative
 ## what is the output?
 the output is a hdf5 format file\
 ![alt text](/image/h5file2.png "Logo Title Text 1")\
-`m1` is the spin sum
-`bigFFT` is the n-d Fourier transform then square of the Ising field
+
+`Ls Ks A` are the parameters of the lattice model
+`m1` is the spin sum\
+`bigFFT` is the n-d Fourier transform then square of the Ising field\
+
 ![alt text](/image/h5file1.png "Logo Title Text 1")\
+
 
 
 ## analysis data, be patient!
@@ -53,9 +57,12 @@ m1=readm1("somename2.hdf5")
 ```
 `analysis1_binderRatio_with_error.py` provides function to estimate the Binder ratio and its error
 
-to find the phase boundary is not an easy job, especially for the active scaling type
+to find the phase boundary is not an easy job, especially for the active scaling type\
 
 ![alt text](/image/binder_ratio.png "Logo Title Text 1")\
+
+after zoom in, we find the phase boundary is around 1.05\
+
 ![alt text](/image/binder_ratio_zoom.png "Logo Title Text 1")\
 
 
