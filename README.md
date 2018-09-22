@@ -30,7 +30,8 @@ p.run("somename2.hdf5",50,200,6)
     but only 500x200 is stored, because the step gap is 6
     
 ## what is the output?
-the output is a hdf5 format file
-![alt text](/image/h5file1.png "Logo Title Text 1")
+the output is a hdf5 format file\
+![alt text](/image/h5file2.png "Logo Title Text 1")\
+![alt text](/image/h5file1.png "Logo Title Text 1")\
 
 
