@@ -2,9 +2,9 @@
 ```python
 p=IsingND(Ls,Ks,A)
 ```
-where Ls and Ks must be python tuple, even it is one dimension, it should be written as (32,)
-Ls is the system dimension
-Ks is the nearest coupling
+where Ls and Ks must be python tuple, even it is one dimension, it should be written as (32,)  
+Ls is the system dimension  
+Ks is the nearest coupling  
 A is the longer range coupling in Ls[0] dimension
 
 ## 1-d monte carlo 
