@@ -29,12 +29,25 @@ p.run("somename2.hdf5",50,200,6)
     in this case there are 500x200x6 steps running
     but only 500x200 is stored, because the step gap is 6
     
+## high-d monte carlo
+yes, it can go to arbitary dimension.\
+but the speed is slow, as the system size goes\
+c++ is a better alternative
+    
 ## what is the output?
 the output is a hdf5 format file\
 ![alt text](/image/h5file2.png "Logo Title Text 1")\
 ![alt text](/image/h5file1.png "Logo Title Text 1")\
 
 ## analysis data, be patient!
+
+in the ANALYSIS.py package, I wrote function to read the hdf5 file
+```python
+from ANALYSIS import readm1
+m1=readm1("somename2.hdf5")
+```
+analysis1_binderRatio_with_error.py provides function to estimate the Binder ratio and its error
+
 
 ![alt text](/image/binder_ratio.png "Logo Title Text 1")\
 ![alt text](/image/binder_ratio_zoom.png "Logo Title Text 1")\
