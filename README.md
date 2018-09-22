@@ -1,5 +1,7 @@
 # Python_ND_monte_carlo
 
+## 1-d monte carlo 
+
 ```python
 from MONTECARLO import IsingND
 p=IsingND((32,),(1.0,),0.5)
@@ -11,7 +13,7 @@ p.run("somename.hdf5",200,1000,1)
     200 is group numbers
     total 1000x200x1 steps
     
-    
+## 2-d monte carlo    
 ```python
 from MONTECARLO import IsingND
 p=IsingND((32,32),(0.2,0.2),0.1)
